@@ -35,6 +35,25 @@ div.header {
     margin: 5px 0px 0px 10px;
 }
 
+.hero-section {
+    background-color: #FAD1D7;
+    padding:  60px 0px 0px 0px;
+    text-align: center;
+    height: 600px;
+}
+
+.hero-content{
+    padding: 0px 0px 300px 0px;
+}
+.hero-content h2 {
+    font-size: 36px;
+}
+.hero-content p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
 /* Main Content Styles */
 
 h2.main-header {
@@ -120,13 +139,51 @@ h2.main-header {
     color: #42a714;
 }
 
+.palette-four {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFACD;
+    border: #d4c32a 2px solid;
+    position: relative;
+}
 
+.palette-four p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #d4c32a;
+}
 
+.palette-five {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D8CDE8;
+    border: #a46cf8 2px solid;
+    position: relative;
+}
 
-
-
-
-
+.palette-five p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #a46cf8;
+}
 
 
 
@@ -138,11 +195,17 @@ h2.main-header {
 /* Colors */
 
 .babypink {
-    color: #B03A5B;
+    color: #FD8E99;
 }
 .mistyblue {
     color: #337bb1;
 }
 .lavender {
     color: #42a714;
+}
+.lemon {
+    color: #d4c32a;
+}
+.lilac {
+    color: #a46cf8;
 }
