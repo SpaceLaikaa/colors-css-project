@@ -248,3 +248,26 @@ footer {
 .lilac {
     color: #a46cf8;
 }
+
+@media (max-width: 768px) {
+    .palettes-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .palette-one, .palette-two, .palette-three, .palette-four, .palette-five {
+        width: 90%;
+        margin: 10px 0;
+    }
+    
+    .hero-content h2 {
+        font-size: 28px;
+    }
+    
+    .hero-content p {
+        font-size: 18px;
+    }
+    .palette-section h3 {
+        font-size: 0px;
+    }
+}
