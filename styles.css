@@ -35,6 +35,7 @@ div.header {
     margin: 5px 0px 0px 10px;
 }
 
+/* Hero Section Styles */
 .hero-section {
     background-color: #FAD1D7;
     padding:  60px 0px 0px 0px;
@@ -52,17 +53,35 @@ div.header {
 .hero-content p {
     font-size: 22px;
     margin-top: 10px;
-}
+} 
 
 a.explore-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #D16A78;
-    color: #FFFFFF;
+    background-color: #e2909b;
+    color: #ab2e4f;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 20px;
+    transition: transform 1s ease, background-color 0.6s ease, color 0.6s ease, border 0.6s ease;;
+    border: #980c31 2px solid;
+}
+
+.explore-button:hover {
+    background-color: #ab2e4f;
+    transform: translateY(-6px);
+    transition: transform 0.6s ease, background-color 0.6s ease, color 0.6s ease, border 0.6s ease;
+    color: #e2909b;
+    border: #e2909b 2px solid;
+}
+
+.explore-button:active {
+    transform: translateY(0);
+    transition: transform 0.1s ease, background-color 0.6s ease, color 0.6s ease, border 0.6s ease;
+    background-color: #e2909b;
+    color: #ab2e4f;
+    border: #980c31 2px solid;
 }
 
 /* Main Content Styles */
