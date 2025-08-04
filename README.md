@@ -9,7 +9,7 @@ Palette Hub is a simple and elegant website for discovering and sharing beautifu
 -  Mobile-friendly layout
 -  Community invitation for color enthusiasts
 ----------------------------------------------
- Technologies Used
+ Built With
 
 - HTML5
 - CSS3
