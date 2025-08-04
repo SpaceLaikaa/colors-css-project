@@ -39,7 +39,8 @@ div.header {
     background-color: #FAD1D7;
     padding:  60px 0px 0px 0px;
     text-align: center;
-    height: 600px;
+    height: 300px;
+
 }
 
 .hero-content{
@@ -53,6 +54,16 @@ div.header {
     margin-top: 10px;
 }
 
+a.explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D16A78;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
 
 /* Main Content Styles */
 
@@ -195,7 +206,7 @@ h2.main-header {
 /* Colors */
 
 .babypink {
-    color: #FD8E99;
+    color: #B03A5B;
 }
 .mistyblue {
     color: #337bb1;
