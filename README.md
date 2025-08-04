@@ -1,10 +1,10 @@
  Palette Hub 
 
-Palette Hub is a simple and elegant website for discovering and sharing beautiful color palettes. Whether you’re a designer or just love colors, Palette Hub offers inspiration with carefully selected palettes and a clean, modern interface.
+Palette Hub is a simple and elegant website for discovering and sharing beautiful color palettes. 
 
  Features
 
-- 🌈Five unique, handpicked color palettes
+- Five unique, handpicked color palettes
 -  Clean and responsive design
 -  Mobile-friendly layout
 -  Community invitation for color enthusiasts
